@@ -2,7 +2,7 @@
 
 A Django-powered web platform that allows readers to discover, read, and interact with books while enabling writers to publish and share their own works.
 
-HootyLibrary was developed as a university group project by Thai Computer Engineering students. The platform aims to provide a digital publishing space where independent authors can publish their content and connect with readers.
+HootyLibrary was developed as a university group project by Computer Engineering students. The platform aims to provide a digital publishing space where independent authors can publish their content and connect with readers.
 
 ---
 
