@@ -37,8 +37,6 @@ Supported social login providers:
 - Facebook
 - Microsoft
 
----
-
 ## 📚 Book Publishing System
 
 Authors can:
@@ -55,8 +53,6 @@ Readers can:
 - Read published content
 - Save favorite books
 
----
-
 ## ⭐ Reader Interaction
 
 Users can:
@@ -66,13 +62,9 @@ Users can:
 - Track reading history
 - Report inappropriate content
 
----
-
 ## 💬 Messaging System
 
 The platform provides a messaging feature that allows users to communicate with each other.
-
----
 
 ## 🛠 Admin Management
 
@@ -248,23 +240,17 @@ git clone <repository-url>
 cd hooty_library
 ```
 
----
-
 ## 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
 ## 3. Apply Database Migration
 
 ```bash
 python manage.py migrate
 ```
-
----
 
 ## 4. Create Admin Account
 
@@ -273,8 +259,6 @@ Create a Django superuser:
 ```bash
 python manage.py createsuperuser
 ```
-
----
 
 ## 5. Run Development Server
 
