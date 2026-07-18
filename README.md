@@ -230,50 +230,6 @@ All application data is managed using Django ORM.
 
 ---
 
-# 🚀 Installation & Setup
-
-## 1. Clone Repository
-
-```bash
-git clone <repository-url>
-
-cd hooty_library
-```
-
-## 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-## 3. Apply Database Migration
-
-```bash
-python manage.py migrate
-```
-
-## 4. Create Admin Account
-
-Create a Django superuser:
-
-```bash
-python manage.py createsuperuser
-```
-
-## 5. Run Development Server
-
-```bash
-python manage.py runserver
-```
-
-The application will be available at:
-
-```
-http://127.0.0.1:8000/
-```
-
----
-
 # 🌐 Previous Deployment
 
 The application was previously deployed on Heroku during development.
@@ -284,22 +240,6 @@ Production deployment was configured using:
 
 - Heroku
 - Gunicorn
-
-Production command:
-
-```bash
-gunicorn hooty_library.wsgi:application
-```
-
-Environment variables used:
-
-```
-SECRET_KEY
-DEBUG
-DATABASE_URL
-```
-
-For production environments, sensitive configurations should be stored using environment variables.
 
 ---
 
@@ -359,9 +299,3 @@ Possible improvements:
 - Add real-time messaging
 - Improve UI/UX
 - Add more advanced content management features
-
----
-
-# 📄 License
-
-This project was developed for educational purposes as part of a Computer Engineering university project.
